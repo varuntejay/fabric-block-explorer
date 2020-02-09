@@ -1,0 +1,23 @@
+
+
+table {
+    background-color: #24292e;
+    border-collapse: collapse;    
+}
+
+tr.border_bottom {
+    border-bottom:1pt solid black;
+}
+
+th {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+td {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

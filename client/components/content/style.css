@@ -1,0 +1,101 @@
+.grid {
+    width: 170px;    
+    background-color: #24292e;    
+    padding: 10px;
+    height: 80px;    
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navigator {    
+    background-color: #141619;    
+    padding: 10px;    
+    color: #ffffff;
+    border-bottom:2pt solid black;
+    height: 40px;    
+}
+
+.grid #value {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.grid #key {
+    font-size: 20px;    
+    color: #ffffff;
+}
+
+.blockDetails {
+    float: right;
+    min-height: 130px;
+    background-color: #dddddd;
+    width: 100%
+}
+
+.transactionDetails {
+    float: left;
+}
+
+.transactionDetails table {
+    background-color: #24292e;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 417px;
+}
+
+.transactionDetails table td {
+    color: #ffffff;
+    text-align: left;    
+    word-wrap: break-word;    
+    padding: 10px;        
+    width: 130px;
+    white-space: normal;
+}
+
+table {
+    background-color: #24292e;
+    border-collapse: collapse;    
+}
+
+tr:nth-child(2n + 2) td {
+    background-color: #343d4682;
+}
+
+tr.borderBottom {
+    border-bottom:1pt solid black;
+}
+
+tr.dataBorderBottom {
+    border-bottom:0.5pt solid black;
+}
+
+th {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+td {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;        
+    width: auto
+}
+
+
+
+td:last-child {
+    width: 150px;
+}
+
+tr {
+    width: 100%;
+}
+
+
+
+/* table td:last-child {
+    width: 100%;
+} */

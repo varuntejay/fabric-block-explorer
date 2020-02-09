@@ -1,0 +1,15 @@
+.reqWidget{
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif'
+}
+
+.reqWidget .widgetHeading{
+    padding: 10px;
+    background-color: #004681;
+    color: #ffffff;
+    font-size: 14px;
+}
+body{
+    background-color: black;
+}
