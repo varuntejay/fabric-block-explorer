@@ -13,20 +13,20 @@ Hyperledger fabric custom block explorer built using React JS as client and Node
 
 First ensure you are in a new and empty directory.
 
-1. Clone the respository
+1. Clone the repository
 
 ```
-git clone https://github.com/varuntejay/fabric_block_explorer
+git clone https://github.com/varuntejay/fabric-block-explorer
 ```
 
-2. Change directory to server and install node modules
+2. Change the directory to the server and install node modules
 
 ```
 cd ./server
 npm install
 ```
 
-3. Change directory to client and install node modules
+3. Change the directory to the client and install node modules
 
 ```
 cd ./client
@@ -35,18 +35,18 @@ npm install
 
 ## **Configuration**
 
-1. Copy the peer tls certificate from network crypto-config folder to following directory
+1. Copy the peer TLS certificate from network crypto-config folder to the following directory
 
 ```
 ./server/src/certs
 ```
-E.g. peer tls certifcate path in fabric samples - first network is following
+E.g. peer TLS certificate path in fabric samples - first network is following
 
 ```
 fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
 ```
 
-2. Copy the user certifcate registered either from fabric-ca tool or custom tool to following directory
+2. Copy the user certificate registered either from fabric-ca tool or custom tool to the following directory
 
 ```
 ./server/src/certs/hfc
@@ -59,7 +59,7 @@ fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/tl
   module.exports.FABRIC_CLIENT_USERNAME = '{username}'
   ```
   
-  - If you don't have scripts to generate user certifcates. Please follow the steps listed below.
+  - If you don't have scripts to generate user certificates. Please follow the steps listed below.
   
     - Open the following file in a code/text editor
     
@@ -79,7 +79,7 @@ fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/tl
      ./server/src/fabric_ca/enrollaffiliation.js
      ./server/src/fabric_ca/registeruser.js
      ```
-     - With the above steps, an user certifcate will be created under the following direcotry
+     - With the above steps, a user certificate will be created under the following directory.
      
      ```
      ./server/src/certs/hfc
@@ -96,7 +96,7 @@ module.exports.FABRIC_PEER_ADDRESS = 'grpcs://localhost:7051'
  ```
 ## **Run node express back end server**
 
-1. First ensure that you're in the fabric-block-explorer/server folder.
+1. First, ensure that you're in the fabric-block-explorer/server folder.
 
 2. Run the node express back end server in dev mode. This will up bring the express server on PORT 9086.
 
@@ -111,7 +111,7 @@ http://localhost:9086
 
 ## **Run react front end application**
 
-1. First ensure that you're in the fabric-block-explorer/client folder.
+1. First, ensure that you're in the fabric-block-explorer/client folder.
 
 2. Run the web application in dev mode. This will up bring the react front end application on PORT 4000.
 
