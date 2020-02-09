@@ -124,5 +124,5 @@ npm run dev
 http://localhost:4000
 ```
 
-
+<img src="frontend-sample.png" width="100%" height="100%"/>
 
